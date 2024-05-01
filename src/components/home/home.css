@@ -1,0 +1,59 @@
+section {
+    position: absolute;
+    width: 75%;
+    align-content: center;
+    top: 200px;
+    left:12%;
+    background-color: blueviolet;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    left: 12%;
+}
+
+.solana-tab, .evm-tab {
+    position: relative;
+    background-color: rgb(142, 100, 152);
+    padding: 20px;
+    width: 40%;
+    margin: 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+header {
+    text-align: center;
+}
+
+h2, p, header {
+    padding: 5px 20px;
+    color: azure;
+}
+
+section, .solana-tab, .evm-tab {
+    border-radius: 10px;
+}
+
+.solana-tab a, .evm-tab a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    position: relative;
+    left: 40%;
+    color: azure;
+}
+
+.intro-paragraph {
+    border: 0 10px;
+    margin: 0 10px;
+    background-color: rgb(142, 100, 152);
+}

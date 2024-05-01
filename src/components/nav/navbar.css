@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.links {
+    padding: 20px 25px;   
+}
+
+.links a {
+    text-decoration: none;
+    color: azure;
+    padding: 0 20px;
+}
+
+.primary {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    text-decoration: none;
+}

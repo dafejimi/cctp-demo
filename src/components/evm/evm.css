@@ -1,0 +1,68 @@
+section {
+    position: absolute;
+    width: 75%;
+    align-content: center;
+    top: 200px;
+    left:12%;
+    background-color: blueviolet;
+}
+
+header {
+    text-align: center;
+}
+
+h2, p, header {
+    padding: 5px 20px;
+    color: azure;
+}
+
+.solana-tab, .evm-tab {
+    position: relative;
+    background-color: rgb(142, 100, 152);
+    padding: 20px;
+    width: 40%;
+    margin: 20px 0px;
+}
+
+section, .solana-tab, .evm-tab {
+    border-radius: 10px;
+}
+
+.solana-tab button, .evm-tab button {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    color: azure;
+    border: none;
+}
+
+input, select {
+    border-radius: 2px;
+    width: 300px;
+    border: none;
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+input:focus, select:focus {
+    border: blueviolet;
+}
+
+input:placeholder-shown, input::placeholder {
+    color: darkgray;
+}
+
+.send-results {
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
